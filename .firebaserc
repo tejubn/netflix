@@ -1,5 +1,9 @@
 {
   "projects": {
+<<<<<<< HEAD
     "default": "netflix-e0a06"
+=======
+    "default": "netflix-ce2df"
+>>>>>>> 53466590d10f2e963122ee7227363570d6a5f0c9
   }
 }

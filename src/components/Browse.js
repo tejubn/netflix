@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import Header from './Header';
 import useNowPlayingMovies from '../hooks/useNowPlayingMovies';
 import MainContianer from './MainContianer';
@@ -13,6 +14,12 @@ const Browse = () => {
       <MainContianer/>
       <SecondaryContainer/>
     </div>
+=======
+
+const Browse = () => {
+  return (
+    <div>Browse</div>
+>>>>>>> 53466590d10f2e963122ee7227363570d6a5f0c9
   )
 }
 
