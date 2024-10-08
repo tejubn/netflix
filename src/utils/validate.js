@@ -33,11 +33,7 @@ export const checkValidData = (email, password) => {
     }
   
     // Return success message if both email and password are valid
-<<<<<<< HEAD
     // return "Both email and password are valid.";
     return null;
-=======
-    return "Both email and password are valid.";
->>>>>>> 53466590d10f2e963122ee7227363570d6a5f0c9
   };
   

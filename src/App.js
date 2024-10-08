@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 import { Provider } from 'react-redux';
 import './App.css';
 import Body from './components/Body';
@@ -11,14 +10,6 @@ function App() {
       <Body/>
       </Provider>
 
-=======
-import './App.css';
-import Body from './components/Body';
-function App() {
-  return (
-    <div className="App">
-<Body/>
->>>>>>> 53466590d10f2e963122ee7227363570d6a5f0c9
     </div>
   );
 }
