@@ -5,7 +5,7 @@ export const API_Options = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjNDFjZTYwYTM4NzQ2NjI3Njg1MWUwNjI4YzRlNTYyOCIsIm5iZiI6MTcyODM3MjY0MS4wMTg5MzYsInN1YiI6IjY2ZTQwM2IzZjQ2N2MyYWQ2MmY5NjZhZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.8tPbQZi1Gx0ev9ySTX5IobRmZWEQFCdXKOJbeIJFE40'
+      Authorization:`Bearer  ${process.env.REACT_TMDB_KEY}`
     }
   };
 export const IMG_CDN_URL="https://image.tmdb.org/t/p/w500";
@@ -55,3 +55,5 @@ export const SUPPORTEDLANGUAGES = [
     name: "urdu"
   }
 ];
+export const GPT_KEY="AIzaSyB1nfn7T0aauJ91-uZsAhDeGn1kRAljnt0";
+// export const GPT_KEY=process.env.REACT_GPT_KEY;
